@@ -1,0 +1,10 @@
+[Unit]
+Description=My custom command
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/local/bin/zoetec/files/ffplay_start.sh
+
+[Install]
+WantedBy=custom.target
