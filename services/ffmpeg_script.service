@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /usr/local/bin/zoetec/files/ffmpeg_start.sh
+ExecStart=/bin/bash /usr/local/bin/zoetec/scripts/ffmpeg_start.sh
 
 [Install]
 WantedBy=multi-user.target
