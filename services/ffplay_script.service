@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /usr/local/bin/zoetec/files/ffplay_start.sh
+ExecStart=/bin/bash /usr/local/bin/zoetec/scripts/ffplay_start.sh
 
 [Install]
 WantedBy=custom.target
